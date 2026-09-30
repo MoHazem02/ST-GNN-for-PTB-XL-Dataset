@@ -23,6 +23,7 @@
 
 - [Overview](#overview)
 - [Key Results](#key-results)
+- [Visualizations](#visualizations)
 - [Architecture](#architecture)
   - [Lead Graph Construction](#lead-graph-construction)
   - [Model Components](#model-components)
@@ -72,6 +73,26 @@ This decoupled spatio-temporal design achieves strong multi-label classification
 | **Spatial Modeling**  | Explicit graph adjacency | Implicit (flat channels) |
 
 > *\*The 1D CNN baseline notebook is included for reference but was not trained to completion. The architecture (8-block ResNet-1D with 5.79M parameters) is provided for comparison.*
+
+---
+
+## Visualizations
+
+### 12-Lead Graph Adjacency Matrix
+
+![12-Lead Graph Adjacency matrix](<12-Lead Graph Adjacency matrix.png>)
+
+### Sample Normal 12-Lead ECG
+
+![Sample 12 Lead ECG normal case](<Sample 12 Lead ECG normal case.png>)
+
+### Per-Class Confusion Matrices (Test Set)
+
+![Per Class Confusion matrices (Test Set)](<Per Class Confusion matrices (Test Set).png>)
+
+### Loss and AUC-ROC After 15 Epochs
+
+![Loss and AUC-ROC after 15 epochs](<Loss and AUC-ROC after 15 epochs.png>)
 
 ---
 
